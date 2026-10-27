@@ -1,1 +1,9 @@
-//Python packages needed to run the notebook
+# Package versions used when checking the original notebook.
+# Tested with Python 3.12. Run the notebook in Google Colab for CSV upload.
+
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+seaborn==0.13.2
