@@ -12,6 +12,8 @@ This repository contains our original experiment: the notebook, dataset, results
 
 Our task is to classify a breast mass as **benign (noncancerous)** or **malignant (cancerous)** using measurements of cell nuclei. We chose a public, labelled dataset so we could build and reproduce both approaches under the same data conditions.
 
+We also chose this topic in recognition of Pinktober, Breast Cancer Awareness Month. Working on the project during October gave us another reason to focus on breast cancer awareness and explore how quantum machine learning could help classify breast masses as cancerous or noncancerous.
+
 For this task, we wanted to look beyond accuracy. A model can have a high overall score and still miss cancerous cases. We therefore report recall, precision and F1 alongside accuracy, and show the actual mistakes each model made.
 
 The inputs are measurements already extracted from fine-needle aspirate images. Our code works with these measurements; it does not read medical images directly. This is a research comparison, not a clinical diagnostic tool.
