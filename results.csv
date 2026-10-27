@@ -1,0 +1,3 @@
+Model,Total records,Records used for training,Records used to choose settings,Records used for testing,Accuracy (%),Precision (%),Recall (%),F1 (%)
+Classical fusion SVM,569,398,57,114,94.74,92.86,92.86,92.86
+Quantum fusion SVM,569,398,57,114,97.37,95.35,97.62,96.47
