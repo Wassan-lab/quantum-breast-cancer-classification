@@ -195,7 +195,7 @@ Our quantum model uses Qiskit's QuantumCircuit and Statevector to simulate four-
 
 | File | Contents |
 |---|---|
-| `QSVM_Qiskit_24_Quantum_24_Classical.ipynb` | Current notebook: data preparation, classical 24-configuration search, Qiskit quantum 24-configuration search and evaluation |
+| `breast_cancer_classical_vs_qiskit_qsvm.ipynb` | Current notebook: data preparation, classical 24-configuration search, Qiskit quantum 24-configuration search and evaluation |
 | `Breast_cancer_dataset.csv` | Our 569-record input dataset (use this exact filename when running the notebook) |
 | `README.md` | Project explanation, methods, Qiskit simulation results and run instructions |
 
