@@ -167,13 +167,29 @@ These operation counts describe one feature-map circuit. We do not use a real qu
 
 ## Run our project
 
-1. Open [Google Colab](https://colab.research.google.com/) and upload `QSVM_Qiskit_24_Quantum_24_Classical.ipynb`.
-2. Upload `Breast_cancer_dataset.csv` to the Colab session. Keep the filename exactly as written, including `.csv`.
-3. Run the cells in order. The notebook includes a setup cell with `%pip install -q scikit-learn qiskit` to install the required quantum package.
-4. Restart the runtime if installation requests it, then run the notebook again. A CPU runtime is enough for statevector simulation.
-5. The notebook prints the number of configurations, selects settings using validation F1, and displays the final test results for both models.
+We use Visual Studio Code (VS Code) to run our project. The notebook contains the data preparation, classical SVM, and quantum SVM using IBM Qiskit.
 
-The dataset-loading line is `pd.read_csv("Breast_cancer_dataset.csv")`. The updated notebook uses Qiskit for circuit construction and statevectors; it does not submit jobs to IBM quantum hardware.
+To run the project:
+
+Install Python and Visual Studio Code.
+
+Open VS Code and install the Python and Jupyter extensions.
+
+Download the project files from our GitHub repository and open the project folder in VS Code.
+
+Make sure Breast_cancer_dataset.csv is in the same folder as the Jupyter notebook.
+
+Open the terminal in VS Code and install the required libraries:
+
+python -m pip install numpy pandas matplotlib seaborn scikit-learn qiskit ipykernel
+
+Open the .ipynb notebook in VS Code and select the Python environment where the libraries were installed.
+
+Click Run All to execute the notebook cells in order.
+
+The notebook trains both models using 24 configurations each and displays their accuracy, precision, recall, and F1-score.
+
+Our quantum model uses Qiskit's QuantumCircuit and Statevector to simulate four-qubit quantum circuits. The simulation runs on a classical computer, so IBM quantum hardware is not required.
 
 ## Files in this repository
 
