@@ -1,5 +1,5 @@
 # Package versions used when checking the original notebook.
-# Tested with Python 3.12. Run the notebook in Google Colab for CSV upload.
+# Tested with Python 3.12. Run the notebook in Visual Studio Code
 
 numpy==2.3.5
 pandas==2.2.3
